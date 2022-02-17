@@ -1,0 +1,3 @@
+#create database crud_oscar;
+#use crud_oscar;
+#create table calcados(nomeCalcado varchar(64) not null, tamanhoCalcado double not null, categoriaCalcado varchar(64) not null, corCalcado varchar(32) not null, precoCalcado double not null, marcaCalcado varchar(64) not null, dataCadastroCalcado varchar(14) not null, quantidadeEstoqueCalcado double not null, descricaoCalcado varchar(128) not null, primary key(nomeCalcado));
